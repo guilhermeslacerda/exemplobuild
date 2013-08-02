@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.0" timestamp="2013-08-02T17:08:41.113">
+<file name="C:\JavaApps\Eclipse\ExemploBuild\src\net\guilhermelacerda\exemplobuild\AloMundo.java">
+<violation beginline="4" endline="4" begincolumn="24" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.exemplobuild" class="AloMundo" variable="mensagem" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="4" endline="4" begincolumn="24" endcolumn="31" rule="ImmutableField" ruleset="Design" package="net.guilhermelacerda.exemplobuild" class="AloMundo" variable="mensagem" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ImmutableField" priority="3">
+Private field 'mensagem' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="25" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.exemplobuild" class="AloMundo" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'mensagem' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\Eclipse\ExemploBuild\tests\net\guilhermelacerda\exemplobuild\tests\AllTests.java">
+<violation beginline="9" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="net.guilhermelacerda.exemplobuild.tests" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="C:\JavaApps\Eclipse\ExemploBuild\tests\net\guilhermelacerda\exemplobuild\tests\AloMundoTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Type Resolution" package="net.guilhermelacerda.exemplobuild.tests" externalInfoUrl="http://pmd.sourceforge.net/rules/java/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="13" begincolumn="17" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.exemplobuild.tests" class="AloMundoTest" method="testaAloMundo" variable="msg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="17" endcolumn="28" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.exemplobuild.tests" class="AloMundoTest" method="testaAloMundo" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+</file>
+</pmd>

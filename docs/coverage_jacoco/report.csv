@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Code Coverage,net.guilhermelacerda.exemplobuild.tests,AloMundoTest,0,13,0,0,0,4,0,2,0,2
+JaCoCo Code Coverage,net.guilhermelacerda.exemplobuild.tests,AllTests,3,0,0,0,1,0,1,0,1,0
+JaCoCo Code Coverage,net.guilhermelacerda.exemplobuild,AloMundo,0,9,0,0,0,4,0,2,0,2
